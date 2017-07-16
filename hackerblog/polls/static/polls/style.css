@@ -6,16 +6,30 @@ li {
 	line-height: 1.5em;
 }
 
+a:visited,a:active {
+	color: #d2d2d2;
+}
+
 li a {
     color: white;
     font-weight: bold;
 }
 
 body {
+	color: white;
 	font-family: monospace;
 	font-size: 14px;
 	background: white url("images/background.gif");
 	   background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center; 
+}
+
+h1 {
+	font-family: Helvetica,sans-serif;
+	font-size: 1.2rem;
+	padding:2px 5px;
+	margin: auto;
+	border: 2px solid white;
+	margin-bottom: 10px;
 }
