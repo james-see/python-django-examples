@@ -1,0 +1,21 @@
+ul {
+	list-style: none;
+}
+
+li {
+	line-height: 1.5em;
+}
+
+li a {
+    color: white;
+    font-weight: bold;
+}
+
+body {
+	font-family: monospace;
+	font-size: 14px;
+	background: white url("images/background.gif");
+	   background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
